@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<!--author: vanshul vanshul,000924316-->
+	<title>Sandy and Leslie's apartment</title>
+	
+	<link href = "mobile.css" rel = "stylesheet" media = "screen" type = "text/css">
+	<link href="apartment_layout.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<header>
+	<h1 class="hcenter">Sandy and Leslie's Apartment</h1>
+	<p class = "hcenter">Click a room for a detailed view.</p>
+	<p class="hcenter"><img src="images/apartmentfloorplan.jpg" alt="Apartment floor plan"  usemap="#Map" >
+	
+	
+	<map name="Map" id="Map">
+		<area shape="rect" coords="52,2,190,160" href="bedroom1.html" alt="Bedroom1" title="Bedroom1">
+		<area shape="rect" coords="204,4,355,153" href="bedroom2.html" alt="Bedroom2" title="Bedroom2">
+		<area shape="circle" coords="410,135,34" href="diningroom.html" alt="diningroom" title="Diningroom">
+		<area shape="poly" coords="401,198,476,168,532,172,553,395,427,394" href="livingroom.html" alt="Living Room" title="Living Room">
+		<area shape="rect" coords="246,234,387,394" href="kitchen.html" alt="Kitchen" title="Kitchen">
+		<area shape="default" href="apartment.html" alt="default" title="Sorry, no view available for this room">
+	</map>
+	</p>
+
+
+	<p class = "textmenu">
+
+	<span class = "textmenuitem"><a href = "apartment.html" >Apartment</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "bedroom1.html">Bedroom 1</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "bedroom2.html">Bedroom 2</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "diningroom.html">Dining Room</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "kitchen.html">Kitchen</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "livingroom.html">Living Room</a></span>
+	
+
+	</p>
+	</header>
+	<section id = "survey">
+	<h2>Survey</h2>
+	<form id="form1" name="form1" method="post" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+
+	  <p>How did you find out about this apartment? Check any that apply:</p>
+	  <p>
+		<input type="checkbox" name="Web search" id="Web_search" />
+		<label for="Web_search">Web search</label>
+		<input type="checkbox" name="friend" id="friend" />
+		<label for="friend">Friend</label>
+		<input type="checkbox" name="newspaper" id="newspaper" />
+		<label for="newspaper">Newspaper</label>
+	  </p>
+	
+	
+		<input type="submit" name="submit" id="submit" value="Submit">
+		<input type="reset" name="reset" id="reset" value="Reset Form">
+	</form>
+	</section><!-- end rentalform -->
+	
+	<section id = "welcome">
+		<h2>Welcome Message</h2>
+		
+		<audio controls>
+			 <source src="apartment.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			<embed src = "apartment.mp3" type = "audio/mpeg" width = "250" height = "40"   autostart = "false">
+		</audio>
+		
+		<p>Transcript: Hello. Welcome to our apartment. You’ll really enjoy living here. The rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you!</p>
+
+	
+	</section>
+	
+	
+	<section id = "services">
+	<h2>Apartment services:</h2>
+	<table>
+
+	  <tr>
+		<th>Service</th>
+		<th>Day/Hours</th>
+	  </tr>
+
+	  <tr>
+		<td>Gym</td>
+		<td rowspan="2"><p>Monday-Friday 6am - 10pm<br />
+		  Saturday 8am - 8pm<br />
+		  Sunday 8am - 5pm</p></td>
+	  </tr>
+	  <tr>
+		<td>Pool</td>
+	  </tr>
+	  <tr>
+		<td>Laundry</td>
+		<td>24/7</td>
+	  </tr>
+	  <tr>
+		<td colspan="2">Please do not allow people you do not know to use these facilities.</td>
+	  </tr>
+	</table>
+	</section><!-- end services -->
+	
+	<section id = "location">
+	
+		<h2>Location</h2>
+		
+		<img src = "images/location.png" alt = "location map">
+	
+	</section><!-- end location -->
+	
+	
+	<section id = "gallery">
+		<h2>Gallery</h2>
+		<div class = "flex-container">
+			<div>
+				<h3>Balcony</h3>
+				<img src = "images/thumbnails/balcony_sm.jpg" alt = "balcony">
+			</div>
+			<div>
+				<h3>Bathroom</h3>
+				<img src = "images/thumbnails/bathroom_sm.jpg" alt = "bathroom">
+			</div>
+			<div>
+				<h3>Bedroom</h3>
+				<img src = "images/thumbnails/bedroom_sm.jpg" alt = "bedroom">
+			</div>
+			<div>
+				<h3>Dining Room</h3>
+				<img src = "images/thumbnails/diningroom_sm.jpg" alt = "dining room">
+			</div>
+			<div>
+				<h3>Kitchen</h3>
+				<img src = "images/thumbnails/kitchen_sm.jpg" alt = "kitchen">
+			</div>
+			<div>
+				<h3>Living Room</h3>
+				<img src = "images/thumbnails/livingroom_sm.jpg" alt = "livingroom">
+
+		</div>
+		</div>
+</section><!-- end gallery -->
+	
+	<footer>
+		<p>For more information contact: <a href="mailto:SandyAndLeslie@example.com">SandyAndLeslie@example.com</a></p>
+		<p>&copy; Sandy and Leslie 2023</p>
+	</footer>
+	
+
+</body>
+</html>

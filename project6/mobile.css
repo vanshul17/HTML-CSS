@@ -1,0 +1,45 @@
+body { display: -ms-grid;
+			display: grid;
+			-ms-grid-template-columns:  auto auto auto;
+			-ms-grid-columns:  auto auto auto;
+			-mis-grid-rows: auto auto auto auto auto;
+			grid-template-columns:  auto auto auto;
+			-ms-grid-gap: 10px;
+			grid-gap: 10px;
+			}  
+
+			
+
+
+@media only screen and (max-width: 600px) {
+  
+	header img, .invis{
+			display: none;
+		}
+		
+	
+	
+	body {
+		/*background:red; font-size:.75em; */
+			
+			
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+		}
+		
+		
+		
+	 .textmenuitem {
+		display: block;
+	}
+	
+	
+	.textmenubar {
+		display: none;
+	}
+	
+	
+}
+
+
