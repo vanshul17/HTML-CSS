@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+			    <!-- Vanshul Vanshul,, 000924316 -->
+				<meta charset="UTF-8">
+		    <link rel="stylesheet" href="travelstyle1.css">
+			<link rel="stylesheet" href="mobile1.css">
+		<title>Travel Reviews</title>
+		
+		    <style>
+	
+
+		body {
+		padding: 0px 70px 0px 70px;
+		}
+		
+		
+		.brdr,.brdr td, .brdr th{
+			border-collapse: collapse;
+			border:1px solid black;
+		}
+		
+        #tip {
+            border: 2px solid black;
+        }
+        #o {
+            border: 2px solid black;
+        }
+        #container {
+            border: 2px solid black;
+            padding: 5px 10px 10px 10px;
+        }
+		
+		#n {
+			border:2px solid black;
+		}
+		.o {
+		text-align:center;
+		}
+		
+		footer {
+		border-top:2px solid black;
+		}
+		
+		
+		
+		
+    </style>
+	</head>
+		<body>
+				
+				<h1>Travel Reviews<br>2023/2024</h1>
+			   <nav>
+					<ul>
+						<li>About us</li>
+						<li>Countries</li>
+						<li>Seminars</li>
+						<li>Photos</li>
+						<li>Travel</li>
+					</ul>
+				</nav><br>
+				
+		
+			 <form method="post" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+                
+                <input type="hidden" name="formname" value="donation form">
+                
+                <fieldset>
+                    <legend>Trip Reviews</legend>
+                    
+                       <select id="content" name="econtent">
+                        <option value="01">Africa</option>
+                        <option value="02">Asia</option>
+                        <option value="03" selected = "selected">North America</option>
+                        <option value="04">South America</option>
+                    </select>  
+
+					<select id="days" name="edays">
+                        <option value="01" selected = "selected">7 Days</option>
+                        <option value="02">10 Days</option>
+                        <option value="03" >14 Days</option>
+                        <option value="04">21 Days</option>
+                    </select>
+					
+					
+					    
+						<div id="radio">
+							<label>Your Rating:</label>
+						<div>
+                        <input type="radio" name="img1" id="img1"> 
+                        <label for="img1"><img src="image/5star.png" alt="image1"></label>
+					</div>
+					<div>
+                        <input type="radio" name="img2" id="img2">
+                         <label for="img2"><img src="image/4star.png" alt="image1"></label>
+                        </div>
+                        <input type="radio" name="img3" id="img3">
+                        <label for="img3"><img src="image/3star.png" alt="image1"></label>
+						<div>
+						<input type="radio" name="img4" id="img4">
+                        <label for="img4"><img src="image/2star.png" alt="image1"></label>
+						</div>
+						<div>
+						<input type="radio" name="img5" id="img5">
+                        <label for="img5"><img src="image/1star.png" alt="image1"></label>
+                    </div>
+                    </div>
+					
+					<label>Comments</label>
+						<textarea cols= "65" rows= "7"   name="feedback" placeholder = "type comments"></textarea>
+						</fieldset>
+						
+						<fieldset>
+						<legend>I would be interested trips to these areas: (check all that apply)</legend>
+                    
+						<div>
+							<input type="checkbox" id="cont1" >
+							<label for="cont1">Africa</label>
+						</div>
+						
+						<div>
+							<input type="checkbox" id="cont2" >
+							<label for="cont2">Asia</label>
+						</div>
+						
+						<div>
+							<input type="checkbox" id="cont3" >
+							<label for="cont3">South America</label>
+						</div>
+						<div>
+							<input type="checkbox" id="cont4"  >
+							<label for="cont4">North America</label>
+						</div>
+						<div>
+							<input type="checkbox" id="cont5"  >
+							<label for="cont5">Others (please specify)</label>
+							<input type="text" >
+						</div>
+						</fieldset>
+						
+						<fieldset>
+							<legend>About You (optional)</legend>
+							                  
+					 <label>I usually prefer these types of trips (select all that apply): </label>
+                   <div> 
+				   <select id="contactme" name="contacttime" multiple size="4">
+				   
+				   
+                        <option>cruise</option>
+                        <option>Cultural/Historic</option>
+                        <option>Cycling</option>
+                        <option>Hiking</option>
+                    </select>
+					</div>
+					
+					
+                    <div>
+					<label>Contact Information</label>
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" name="fname" id="firstname" placeholder="sara" required="" class="textbox">
+                    </div>
+                    <div>
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text" name="lname" id="lastname" placeholder="mehra" class="textbox">
+                    </div> 
+					<div>
+                    <label for="phone">Phone Number</label><br>
+                    <input type="number" name="number" id="phone"  class="textbox">
+                    </div>
+                    <div>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" name="emailaddr" id="email" size="40" placeholder="abc@example.com" class="textbox">
+                    </div>
+		
+						</fieldset>
+						
+						
+						<input type = "submit" value = "SEND FEEDBACK">
+							<input type = "reset" value = "CANCEl">
+					
+					
+					
+			</form> 
+						<footer>
+			
+			<img src="image/outdooradventurehorizontal.png" alt="traveltime">
+			
+			
+			</footer>
+
+
+	
+
+		</body>
+</html>

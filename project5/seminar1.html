@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<!--Vanshul Vanshul,000924316-->
+	<link rel="stylesheet" href="mobile1.css">
+	<link rel="stylesheet" href="travelstyles1.css">
+	<meta charset="UTF-8">
+	<title>Travel seminars</title>
+	<style>
+	
+		.brdr,.brdr td, .brdr th{
+			border-collapse: collapse;
+			border:1px solid black;
+		}
+		.southamerica{
+			background-color:#5993C7;
+		}
+		.northamerica{
+			background-color:#B6D4CE;
+		}
+		.asia{
+			background-color:#A19372;
+		}
+		.africa{
+			background-color:#F4AF60;
+		}
+		.o{
+			background-image:url('images/dust.jpg');
+		}
+		.top{
+			text-align:left;
+		}
+		.shedule {
+			caption-side:bottom;
+			text-align:right;
+		}
+		@media only screen{
+		footer{
+			border-top:2px solid black;
+			display:flex;
+			justify-content:center;
+		}
+		}
+		.main{
+			padding:0 10%;
+		}
+		.brdr{
+			width:90%;
+		}
+		h1 {
+			text-align:center;
+			background-color: #B6D4CE;
+			}
+		
+		.v{
+			background-color: #72B57D;
+			color:white;
+		}
+		
+		.week {
+			background-color: #72B57D;
+		}
+
+		
+	</style>
+	
+</head>
+<body>
+	<h1>Travel Seminars<br>2023/2024</h1>
+	<nav>
+		<ul>
+			<li>About us</li>
+            <li>Countries</li>
+            <li>Seminars</li>
+            <li>Photos</li>
+            <li>Travel</li>
+	
+		</ul>
+	
+	</nav>
+
+
+
+	<div class="main">
+	<table>
+		<caption class="top">Legend:</caption>
+		<tr>
+			<td class="northamerica">&nbsp;&nbsp;</td>
+			<td>North America</td>
+			<td class="southamerica">&nbsp;&nbsp;</td>
+			<td>South America</td>
+			<td class="asia">&nbsp;&nbsp;</td>
+			<td>Asia</td>
+			<td class="africa">&nbsp;&nbsp;</td>
+			<td>Africa</td>
+		</tr>
+	</table>
+	<table class="brdr">
+		<caption class="shedule">
+			<small>Schedule is subject to change</small>
+		</caption>
+		<colgroup>
+			<col>
+			<col span="8" id="days">
+			<col>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<thead>
+			<tr>
+				<th class="v">Day</th>
+				<th class="v">7 am - 9 am</th>
+				<th class="v">9 am - 11 am</th>
+				<th class="v">11 am - 12 pm</th>
+				<th class="v">12 pm - 2 pm</th>
+				<th class="v">2 pm - 4 pm</th>
+				<th class="v">6 pm - 8 pm</th>
+				<th class="v">8 pm - 10 pm</th>	
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="week">Monday</td>
+				<td class="northamerica">North America</td>
+				<td  class="asia">Asia</td>
+				<td colspan="4" class="africa">Africa</td>
+				<td rowspan="2" class="northamerica">North America</td>
+			</tr>
+			<tr>
+				<td class="week">Tuesday</td>
+				<td rowspan="4" class="africa">Africa</td>
+				<td colspan="2" class="northamerica">North America</td>
+				<td>&nbsp;</td>
+				<td colspan="2"  class="asia">Asia</td>
+			</tr>
+			<tr>
+				<td class="week">Wednesday</td>
+				<td colspan="3" rowspan="2"  class="asia">Asia</td>
+				<td class="northamerica">North America</td>
+				<td colspan="2" rowspan="2"  class="southamerica">South America</td>
+			</tr>
+			<tr>
+				<td class="week">Thursday</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="week">Friday</td>
+				<td colspan="5" class="southamerica">South America</td>
+				<td class="o">No seminars</td>
+			</tr>
+			<tr>
+				<td class="week">Saturday</td>
+				<td rowspan="2"  class="southamerica">South America</td>
+				<td>&nbsp;</td>
+				<td class="northamerica">North America</td>
+				<td rowspan="2" class="africa">Africa</td>
+				<td rowspan="2"  class="southamerica">South America</td>
+				<td rowspan="2" colspan="2"  class="asia">Asia</td>
+			</tr>
+			<tr>
+				<td class="week">Sunday</td>
+				<td class="africa">Africa</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="week">Holidays</td>
+				<td colspan="7" class="o">No seminars</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	<footer>
+			<img src="image/outdooradventurehorizontal.png">
+	</footer>
+</body>
+</html>
