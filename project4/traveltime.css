@@ -1,0 +1,119 @@
+header {
+    display: grid;
+    grid-template-columns: auto;
+    padding-left: 4%;
+}
+
+#symbole {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+}
+
+#signin {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: 2;
+    background-color: #0172BA;
+    justify-self: end;
+    padding: 5px 10px 5px 10px;
+    border: radius 25px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+#signin:hover {
+    background-color: #089247;
+}
+
+nav {
+    background-color: #ECF7FE;
+    line-height: 450%;
+    text-align: center;
+    border-top: 1.5px solid #0172BA;
+    border-bottom: 1px solid #0172BA;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+}
+
+nav a {
+    border: 2px solid #0172BA;
+    border-radius: 50px 0px;
+    padding: 7px 20px 7px 20px;
+    color: #0172BA;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+
+    margin-right: 40px;
+}
+
+nav a:hover {
+    background-color: #ECF7FE;
+}
+footer{
+    background-image: url("images/newhampshire.jpg");
+}
+    footer li{
+        list-style-type: none;
+    }
+    #gap1{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        padding: 20px 15px 20px 15px;
+    }
+    #about2{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #social{
+        grid-column: 2;
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        color: #0172BA;
+        text-align: center;
+        justify-content: end;
+    }
+    #middle{
+        display: inline;
+    }
+    #semi{
+        grid-column: 3;
+        grid-row: 1;
+        padding-bottom: 55px;
+    }
+    #nations{
+        float: right;
+	
+    }
+	#gridcontainer{
+			display: grid;
+			grid-template-columns: auto;
+	}
+	#grid{
+		grid-row: 1;
+		grid-column: 4;
+		padding-top: 30px;
+		padding-left: 225px;
+		margin-bottom: 30px;
+	}
+	
+	
+    .about1{
+        border-bottom: 2px solid #0172BA;
+    }
+    #credits{
+        text-align: center;
+    }
+	#credits_heading{
+			text-align: center;
+	}
